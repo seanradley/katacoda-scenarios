@@ -25,7 +25,7 @@
     "assets": {
       "client": [
         {
-          "file": "docker-compose.yml",
+          "file": "test",
           "target": "~/"
         }
       ],
