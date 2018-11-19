@@ -1,5 +1,5 @@
 {
-  "title": "Introduction to Containers v6",
+  "title": "Introduction to Containers",
   "description": "Learn the basics of Docker",
   "details": {
     "steps": [
@@ -19,30 +19,30 @@
     "intro": {
       "text": "intro.md"
     },
+    "finish": {
+      "text": "finish.md"
+    },
     "assets": {
-      "assets": {
-        "client": [
-          {
-            "file": "docker-compose.yml",
-            "target": "~/"
-          }
-        ],
-        "host01": [
-          {
-            "file": "config.yml",
-            "target": "~/"
-          }
-        ]
-      }
+      "client": [
+        {
+          "file": "docker-compose.yml",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "config.yml",
+          "target": "~/"
+        }
+      ]
     }
   },
   "files": [
+    "Dockerfile"
   ],
   "environment": {
-    "hideintro": true,
-    "hidefinish": true,
     "showdashboard": true,
-    "dashboards": [{"name": "Tab Name", "port": 8080}],
+    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
     "uilayout": "editor-terminal"
   },
   "backend": {
