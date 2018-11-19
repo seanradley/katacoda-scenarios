@@ -1,5 +1,5 @@
 {
-  "title": "Introduction to Containers v2",
+  "title": "Introduction to Containers v3",
   "description": "Learn the basics of Docker",
   "details": {
     "steps": [
@@ -26,11 +26,11 @@
       "client": [
         {
           "file": "Dockerfile_mdb",
-          "target": "~/maria/Dockerfile"
+          "target": "~/"
         },
         {
           "file": "waltz-backup-initialised",
-          "target": "~/maria/"
+          "target": "~/"
         }
       ]
     }
@@ -40,8 +40,9 @@
   ],
   "environment": {
     "hideintro": true,
+    "hidefinish": true,
     "showdashboard": true,
-    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
+    "dashboards": [{"name": "Tab Name", "port": 8080}],
     "uilayout": "editor-terminal"
   },
   "backend": {
