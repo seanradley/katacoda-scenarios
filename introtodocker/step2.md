@@ -6,4 +6,4 @@ Run the following commands:
 
 `unzip master.zip` {{execute}}
 
-`cd sw-containers`{{execute}}
+`cd sw-containers-master/`{{execute}}
