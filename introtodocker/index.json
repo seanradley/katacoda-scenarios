@@ -23,7 +23,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "host01": [
+      "client": [
         {"file": "config.yml","target": "~/"}, 
         {"file": "docker-compose.yml","target": "~/"}
       ]
