@@ -19,9 +19,6 @@
     "intro": {
       "text": "intro.md"
     },
-    "finish": {
-      "text": "finish.md"
-    },
     "assets": {
       "assets": {
         "client": [
@@ -40,7 +37,6 @@
     }
   },
   "files": [
-    "Dockerfile_mdb"
   ],
   "environment": {
     "hideintro": true,
