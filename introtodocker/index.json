@@ -29,14 +29,14 @@
           "target": "~/"
         },
         {
-          "file": "waltz-backup-initialised",
+          "file": "waltz-backup-initialised.sql",
           "target": "~/"
         }
       ]
     }
   },
   "files": [
-    "Dockerfile"
+    "Dockerfile_mdb"
   ],
   "environment": {
     "hideintro": true,
