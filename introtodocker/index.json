@@ -1,5 +1,5 @@
 {
-  "title": "Introduction to Containers v4",
+  "title": "Introduction to Containers v5",
   "description": "Learn the basics of Docker",
   "details": {
     "steps": [
@@ -23,22 +23,20 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [
-        {
-          "file": "docker-compose.yml",
-          "target": "~/"
-        },
-        {
-          "file": "Dockerfile_mdb",
-          "target": "~/"
-        },
-        {
-          "file": "waltz-backup-initialised.sql",
-          "target": "~/"
-        }
-      ],
-      "host01": [
-      ]
+      "assets": {
+        "client": [
+          {
+            "file": "docker-compose.yml",
+            "target": "~/"
+          }
+        ],
+        "host01": [
+          {
+            "file": "config.yml",
+            "target": "~/"
+          }
+        ]
+      }
     }
   },
   "files": [
