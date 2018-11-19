@@ -24,8 +24,16 @@
     },
     "assets": {
       "client": [
-        {"file": "config.yml","target": "~/"}, 
-        {"file": "docker-compose.yml","target": "~/"}
+        {
+          "file": "docker-compose.yml",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "config.yml",
+          "target": "~/"
+        }
       ]
     }
   },
@@ -33,10 +41,8 @@
     "Dockerfile"
   ],
   "environment": {
-    "hideintro": true,
-    "hidefinish": true,
     "showdashboard": true,
-    "dashboards": [{"name": "Tab Name", "port": 8080}],
+    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
     "uilayout": "editor-terminal"
   },
   "backend": {
