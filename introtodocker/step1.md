@@ -1,2 +1,1 @@
-# Build and run the Maria DB container
-
+# Take Docker for a little spin...
