@@ -27,6 +27,10 @@
         {
           "file": "docker-compose.yml",
           "target": "~/"
+        },
+        {
+          "file": "config.yml",
+          "target": "~/"
         }
       ],
       "host01": [
